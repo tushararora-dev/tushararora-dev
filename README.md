@@ -44,32 +44,6 @@ Courses: Full-stack Data Science from INeuron, CampusX, Applied roots, YouTube, 
 
 ---
 
-## 🛠️ Projects
-### **Phonepe Transaction Analysis Dashboard**
-- Interactive dashboard using Streamlit, deployed on Heroku for transaction insights.
-
-### **YouTube Influencer Insights Chrome Plugin**
-- Real-time sentiment analysis of YouTube comments using Flask, Scikit-learn, and NLTK.
-
-### **GTA5 Races Recommendation System**
-- Personalized system improving map relevance by 20-30%.
-
-### **Adult/Sensitive Content Classifier**
-- Built a content classification system using transfer learning (VGG-16).
-
-### **NutriGuide**
-- Personalized diet platform using LangChain and GPT.
-
----
-
-## 🧑‍💻 Technical Skills
-- **Programming**: Python, Web Development, App Development, Automation
-- **AI/ML**: Machine Learning, Deep Learning, NLP, Computer Vision, Generative AI, MLOps
-- **Data Science**: Web Scraping, Data Analysis
-- **Others**: UI/UX, Docker, TensorFlow, PyTorch
-
----
-
 ## 🎮 Interests & Activities
 - **Activities**: Blogathon, Hackathon, E-Sport Tournaments, Moderation
 - **Interests**: Research, AI trends, Budget traveling, Itinerary planning

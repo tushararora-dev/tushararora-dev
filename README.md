@@ -1,4 +1,4 @@
-<a href="#"><img width="100%" height="auto" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGFmenl6dG83a3U0d3J2NHg3c3Bjd2J3MWdhY3czeTdiYnhpeTZqdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sk6yL9EGVeAcE/giphy.webp" height="175px"/></a>
+<a href="#"><img width="100%" height="auto" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExemdqaHczZGQ4eHc5eHN6d2tjNWt2bncwcmgxNjlmZHdjNXBoN3BlbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4zZOECZ9mSeSoqGpTI/giphy.webp" height="175px"/></a>
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Tushar Arora</h1>
 ---

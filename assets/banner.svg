@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+  <title id="t">Tushar Arora, Full Stack AI Engineer</title>
+  <desc id="d">Terminal-style banner: tushar@github whoami, then the name Tushar Arora and rotating roles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1411"/>
+      <stop offset="1" stop-color="#070d0b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#35e0b5" stroke-opacity="0.06"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000" fill-opacity="0.18"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#35e0b5" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#35e0b5" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .role { font-size: 24px; fill: #35e0b5; opacity: 0; animation: cycle 12s infinite; }
+      .r1 { animation-delay: 0s; } .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; }
+      @keyframes cycle {
+        0%   { opacity: 0; transform: translateY(6px); }
+        4%   { opacity: 1; transform: translateY(0); }
+        22%  { opacity: 1; transform: translateY(0); }
+        26%  { opacity: 0; transform: translateY(-6px); }
+        100% { opacity: 0; }
+      }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .ping { transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; }
+      @keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%,100% { transform: scale(2.6); opacity: 0; } }
+      .sweep { transform-box: fill-box; transform-origin: 0% 100%; animation: sweep 5s linear infinite; }
+      @keyframes sweep { to { transform: rotate(360deg); } }
+      @media (prefers-reduced-motion: reduce) {
+        .role, .blink, .ping, .sweep { animation: none; }
+        .r1 { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- panel -->
+  <rect width="1000" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1000" height="300" rx="14" fill="url(#grid)"/>
+  <ellipse cx="720" cy="150" rx="330" ry="170" fill="url(#glow)"/>
+  <rect x="1" y="1" width="998" height="298" rx="13" fill="none" stroke="#35e0b5" stroke-opacity="0.35"/>
+
+  <!-- title bar: the three dots -->
+  <line x1="0" y1="44" x2="1000" y2="44" stroke="#35e0b5" stroke-opacity="0.18"/>
+  <circle cx="28" cy="22" r="6.5" fill="#ff5f57"/>
+  <circle cx="50" cy="22" r="6.5" fill="#febc2e"/>
+  <circle cx="72" cy="22" r="6.5" fill="#28c840"/>
+  <text x="500" y="27" text-anchor="middle" class="mono" font-size="13" fill="#8aa39a">tushar@github: ~</text>
+
+  <!-- corner brackets -->
+  <g stroke="#35e0b5" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M22 64V56a4 4 0 0 1 4-4h8"/>
+    <path d="M978 64V56a4 4 0 0 0-4-4h-8"/>
+    <path d="M22 276v8a4 4 0 0 0 4 4h8"/>
+    <path d="M978 276v8a4 4 0 0 1-4 4h-8"/>
+  </g>
+
+  <!-- left: identity -->
+  <text x="48" y="92" class="mono" font-size="16"><tspan fill="#35e0b5">tushar@github</tspan><tspan fill="#8aa39a">:~$ </tspan><tspan fill="#e6f2ee">whoami</tspan></text>
+  <text x="48" y="154" class="sans" font-size="60" font-weight="800" fill="#e6f2ee" letter-spacing="-1.5">Tushar Arora</text>
+
+  <g class="mono" font-weight="600">
+    <text x="48" y="204" class="role r1">Full Stack AI Engineer<tspan class="blink" fill="#e6f2ee">_</tspan></text>
+    <text x="48" y="204" class="role r2">GenAI &amp; Agents Developer<tspan class="blink" fill="#e6f2ee">_</tspan></text>
+    <text x="48" y="204" class="role r3">RAG &amp; LLM Applications<tspan class="blink" fill="#e6f2ee">_</tspan></text>
+    <text x="48" y="204" class="role r4">ML &amp; MLOps Engineer<tspan class="blink" fill="#e6f2ee">_</tspan></text>
+  </g>
+
+  <!-- status line -->
+  <g class="mono" font-size="14">
+    <circle cx="54" cy="246" r="4.5" fill="#35e0b5"/>
+    <circle cx="54" cy="246" r="4.5" fill="#35e0b5" class="ping"/>
+    <text x="68" y="251" fill="#e6f2ee">online · open to roles</text>
+    <text x="260" y="251" fill="#8aa39a">|  1+ yr building production AI  |  Accumax</text>
+  </g>
+
+  <!-- right: radar / GPS card -->
+  <g transform="translate(790 140)">
+   <g transform="scale(0.82)">
+    <circle r="92" fill="#0a1411" fill-opacity="0.7" stroke="#35e0b5" stroke-opacity="0.45"/>
+    <circle r="62" fill="none" stroke="#35e0b5" stroke-opacity="0.28"/>
+    <circle r="32" fill="none" stroke="#35e0b5" stroke-opacity="0.28"/>
+    <line x1="-92" y1="0" x2="92" y2="0" stroke="#35e0b5" stroke-opacity="0.22"/>
+    <line x1="0" y1="-92" x2="0" y2="92" stroke="#35e0b5" stroke-opacity="0.22"/>
+    <path class="sweep" d="M0 0 L92 0 A92 92 0 0 0 65 -65 Z" fill="#35e0b5" fill-opacity="0.22"/>
+    <circle cx="14" cy="-20" r="5" fill="#35e0b5"/>
+    <circle cx="14" cy="-20" r="5" fill="#35e0b5" class="ping"/>
+   </g>
+    <text x="0" y="100" text-anchor="middle" class="mono" font-size="13" fill="#e6f2ee">28.6692°N  77.4538°E</text>
+    <text x="0" y="118" text-anchor="middle" class="mono" font-size="12" fill="#8aa39a">Ghaziabad, India</text>
+  </g>
+
+  <rect width="1000" height="300" rx="14" fill="url(#scan)" pointer-events="none"/>
+</svg>
